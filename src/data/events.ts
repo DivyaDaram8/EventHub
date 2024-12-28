@@ -151,7 +151,7 @@ export const events: Event[] = [
     organizer: 'Comedy Club',
     price: '$40'
   },
-  // Continue with more events...
+
   {
     id: '30',
     title: 'Digital Art Exhibition',
@@ -163,5 +163,126 @@ export const events: Event[] = [
     image: 'https://images.unsplash.com/photo-1547826039-bfc35e0f1ea8?auto=format&fit=crop&w=2400&q=80',
     organizer: 'Digital Arts Collective',
     price: '$25'
-  }
+  },
+  // Additional 20 events
+  {
+    id: '31',
+    title: 'Blockchain Summit 2024',
+    date: '2024-06-25',
+    time: '09:00 AM',
+    location: 'Tech Hub Conference Center',
+    description: 'Discover the future of blockchain technology and its applications.',
+    category: 'technology',
+    image: 'https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=2400&q=80',
+    organizer: 'Blockchain Network',
+    price: '$350'
+  },
+  {
+    id: '32',
+    title: 'Rock Fest 2024',
+    date: '2024-08-10',
+    time: '05:00 PM',
+    location: 'Open Air Stadium',
+    description: 'A night of electrifying performances by top rock bands.',
+    category: 'music',
+    image: 'https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?auto=format&fit=crop&w=2400&q=80',
+    organizer: 'Rock Nation',
+    price: '$99'
+  },
+  {
+    id: '33',
+    title: 'Startup Founders Meet',
+    date: '2024-09-15',
+    time: '03:00 PM',
+    location: 'Innovation Hub',
+    description: 'A networking event for startup founders and investors.',
+    category: 'business',
+    image: 'https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=2400&q=80',
+    organizer: 'Startup Circle',
+    price: '$150'
+  },
+  {
+    id: '34',
+    title: 'Gourmet Food Tasting',
+    date: '2024-07-05',
+    time: '06:00 PM',
+    location: 'Downtown Culinary Center',
+    description: 'Taste exquisite dishes by renowned chefs.',
+    category: 'food',
+    image: 'https://images.unsplash.com/photo-1490645935967-10de6ba17061?auto=format&fit=crop&w=2400&q=80',
+    organizer: 'Foodie Network',
+    price: '$70'
+  },
+  {
+    id: '35',
+    title: 'Fitness Bootcamp',
+    date: '2024-06-15',
+    time: '07:00 AM',
+    location: 'City Sports Complex',
+    description: 'A day of intensive fitness training with top trainers.',
+    category: 'health',
+    image: 'https://images.unsplash.com/photo-1534438327276-14e5300c3a48?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8Zml0bmVzcyUyMGJvb3RjYW1wfGVufDB8fDB8fHww',
+    organizer: 'Health First',
+    price: '$50'
+  },
+  {
+    id: '36',
+    title: 'Stand-Up Comedy Night',
+    date: '2024-07-15',
+    time: '08:00 PM',
+    location: 'Comedy Club Downtown',
+    description: 'Enjoy a hilarious evening with popular comedians.',
+    category: 'entertainment',
+    image: 'https://media.istockphoto.com/id/1667997784/photo/young-woman-talking-during-stand-up-comedy-show.webp?a=1&b=1&s=612x612&w=0&k=20&c=efCHp-SAsogrJM5MBRMOkFt0L87Vd4PxRi8DbNmbcSE=',
+    organizer: 'Laugh Out Loud',
+    price: '$35'
+  },
+  {
+    id: '37',
+    title: 'Art & Sculpture Fair',
+    date: '2024-09-25',
+    time: '10:00 AM',
+    location: 'City Art Gallery',
+    description: 'A display of stunning art and sculptures by talented artists.',
+    category: 'arts',
+    image: 'https://images.unsplash.com/photo-1529154166925-574a0236a4f4?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8YXJ0JTIwJTI2JTIwc2N1bHB0dXJlfGVufDB8fDB8fHww',
+    organizer: 'Artistic Minds',
+    price: '$25'
+  },
+  {
+    id: '38',
+    title: 'Marathon 2024',
+    date: '2024-10-10',
+    time: '06:00 AM',
+    location: 'City Main Square',
+    description: 'Join runners from around the world for a marathon event.',
+    category: 'sports',
+    image: 'https://media.istockphoto.com/id/1478466587/photo/legs-two-male-runners-running-city-marathon-race-athletes-jogging-on-asphalt-road-summer.webp?a=1&b=1&s=612x612&w=0&k=20&c=OhnRzpzf627CCu1S-Ja7ICV9FMO91HzbkFO7L7m3YPk=',
+    organizer: 'Run Club',
+    price: '$20'
+  },
+  {
+    id: '39',
+    title: 'Educational Workshop: Coding for Beginners',
+    date: '2024-08-20',
+    time: '09:00 AM',
+    location: 'Tech Academy',
+    description: 'A hands-on workshop for coding enthusiasts with no prior experience.',
+    category: 'education',
+    image: 'https://images.unsplash.com/photo-1513258496099-48168024aec0?auto=format&fit=crop&w=2400&q=80',
+    organizer: 'Code Academy',
+    price: '$40'
+  },
+  {
+    id: '40',
+    title: 'Lifestyle Expo 2024',
+    date: '2024-11-15',
+    time: '11:00 AM',
+    location: 'Expo Center',
+    description: 'Explore the latest trends in lifestyle, fashion, and wellness.',
+    category: 'lifestyle',
+    image: 'https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0?auto=format&fit=crop&w=2400&q=80',
+    organizer: 'Trendy Events',
+    price: '$10'
+  },
 ];

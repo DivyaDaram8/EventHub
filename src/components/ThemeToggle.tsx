@@ -7,8 +7,10 @@ export default function ThemeToggle() {
   useEffect(() => {
     if (darkMode) {
       document.documentElement.classList.add('dark');
+      document.documentElement.classList.remove('light-gradient');
     } else {
       document.documentElement.classList.remove('dark');
+      document.documentElement.classList.add('light-gradient');
     }
   }, [darkMode]);
 

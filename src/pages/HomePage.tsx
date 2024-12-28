@@ -11,7 +11,7 @@ export default function HomePage() {
   const [sortBy, setSortBy] = useState<'date' | 'title'>('date');
 
   const filteredEvents = events
-    .filter(event => 
+    .filter(event =>
       event.title.toLowerCase().includes(search.toLowerCase()) &&
       (category ? event.category === category : true)
     )
@@ -35,11 +35,12 @@ export default function HomePage() {
           category={category}
           setCategory={setCategory}
         />
-        
+
         <div className="relative">
           <button
             onClick={() => setShowFilters(!showFilters)}
             className="px-4 py-2 bg-white dark:bg-gray-800 rounded-lg shadow-sm flex items-center gap-2 hover:bg-gray-50 dark:hover:bg-gray-700 transition-colors"
+            aria-label="Toggle Filters"
           >
             <Filter className="w-4 h-4" />
             <span>Filter</span>
@@ -62,6 +63,11 @@ export default function HomePage() {
           )}
         </div>
       </div>
+
+      {/* No events message */}
+      {filteredEvents.length === 0 && (
+        <p className="text-center text-gray-500 dark:text-gray-400">No events found</p>
+      )}
 
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
         {filteredEvents.map(event => (

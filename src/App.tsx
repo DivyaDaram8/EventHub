@@ -9,13 +9,15 @@ function App() {
   return (
     <EventProvider>
       <Router>
-        <Layout>
-          <Routes>
-            <Route path="/" element={<HomePage />} />
-            <Route path="/event/:id" element={<EventDetailsPage />} />
-            <Route path="/registered" element={<RegisteredEventsPage />} />
-          </Routes>
-        </Layout>
+        
+          <Layout>
+            <Routes>
+              <Route path="/" element={<HomePage />} />
+              <Route path="/event/:id" element={<EventDetailsPage />} />
+              <Route path="/registered" element={<RegisteredEventsPage />} />
+            </Routes>
+          </Layout>
+       
       </Router>
     </EventProvider>
   );
